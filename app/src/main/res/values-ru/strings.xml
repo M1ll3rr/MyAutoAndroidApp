@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мое авто</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="continue_without_registration">Продолжить без регистрации</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="login_info">Вы можете авторизоваться для сохранения данных в облаке или использовать локальное сохранение без авторизации.</string>
+    <string name="password_info">Не менее 6 символов</string>
+    <string name="add_auto">Добавить авто</string>
+    <string name="auto_remove_title">Удалить выбранный автомобиль?</string>
+    <string name="auto_remove_info">Все записи автомобиля будут удалены</string>
+    <string name="delete_title">Удаление</string>
+    <string name="delete_confirmation">Удалить запись?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="account">Аккаунт</string>
+    <string name="settings">Настройки</string>
+    <string name="app_info">О приложении</string>
+    <string name="more">Дополнительно</string>
+    <string name="upload_server">Сохранить на сервере</string>
+    <string name="download_server">Загрузить с сервера</string>
+    <string name="download_success">Данные загружены</string>
+
+    <string name="registration_success">Регистрация успешна!</string>
+    <string name="error">Ошибка</string>
+    <string name="error_enter_email">Введите email</string>
+    <string name="error_enter_password">Введите пароль</string>
+    <string name="error_invalid_email">Некорректный формат email</string>
+    <string name="error_short_password">Пароль должен быть не менее 6 символов</string>
+    <string name="error_user_not_found">Пользователь не найден. Зарегистрируйтесь.</string>
+    <string name="error_wrong_password">Неверный пароль</string>
+    <string name="error_email_in_use">Email уже используется</string>
+    <string name="error_network">Нет подключения к интернету</string>
+    <string name="error_too_many_requests">Попробуйте позже. Слишком много попыток.</string>
+    <string name="error_auth">Ошибка авторизации</string>
+    <string name="error_displaying">Ошибка отображения</string>
+
+    <string name="sedan">Седан</string>
+    <string name="hatchback">Хэтчбек</string>
+    <string name="liftback">Лифтбек</string>
+    <string name="crossover">Кроссовер</string>
+    <string name="suv">Внедорожник</string>
+    <string name="universal">Универсал</string>
+    <string name="minivan">Минивэн</string>
+    <string name="pickup">Пикап</string>
+    <string name="coupe">Купе</string>
+    <string name="cabriolet">Кабриолет</string>
+
+    <string name="toast_add_auto">Сначала добавьте автомобиль</string>
+    <string name="toast_choose_auto">Сначала выберите автомобиль</string>
+    <string name="toast_choose_category">Выберите категорию</string>
+    <string name="toast_choose_mileage">Введите пробег</string>
+    <string name="toast_enter_title_brand">Введите название или бренд</string>
+    <string name="toast_error_time_future">Выберите время не позднее текущего</string>
+    <string name="toast_error_time_past">Выберите дату не раньше текущей</string>
+    <string name="toast_error_mileage_empty">Введите значение пробега</string>
+    <string name="toast_error_mileage_lower">Новый пробег не может быть меньше текущего</string>
+
+    <string name="notification_permission_title">Разрешение на уведомления</string>
+    <string name="notification_permission_message">Для отправки напоминаний о техническом обслуживании необходимо разрешение на уведомления</string>
+    <string name="grant_permission">Разрешить</string>
+    <string name="save_without_notify">Сохранить без уведомлений</string>
+    <string name="notification_permission_denied">Уведомления отключены. Напоминание не будет отправлено</string>
+    <string name="permission_required_title">Требуется разрешение</string>
+    <string name="permission_settings_message">Для отправки уведомлений разрешение было отключено навсегда. Пожалуйста, включите его в настройках приложения</string>
+
+    <string name="brand">Марка</string>
+    <string name="insurance_policy">Страховой полис</string>
+    <string name="body_type">Тип кузова</string>
+    <string name="model">Модель</string>
+    <string name="year">Год выпуска</string>
+    <string name="title_fuel">Заправки</string>
+    <string name="volume">Объем</string>
+    <string name="cost">Стоимость</string>
+    <string name="fuel_price">Цена за 1 л.</string>
+    <string name="discount">Скидка</string>
+    <string name="date">Дата</string>
+    <string name="save">Сохранить</string>
+    <string name="liter">л.</string>
+    <string name="km">км</string>
+    <string name="mileage">Пробег</string>
+    <string name="mileage_change">Изменение пробега</string>
+    <string name="mileage_current">Текущий пробег</string>
+    <string name="update">Обновить</string>
+
+
+    <string name="sort_date">По дате</string>
+    <string name="sort_volume">По объему</string>
+    <string name="sort_cost">По стоимости</string>
+    <string name="sort_category">По категории</string>
+    <string name="title_stat">Статистика</string>
+    <string name="week_stat">За неделю</string>
+    <string name="month_stat">За месяц</string>
+    <string name="year_stat">За год</string>
+    <string name="daily_statistics">Расходы по дням, ₽</string>
+    <string name="category_statistics">Расходы по категориям, ₽</string>
+    <string name="choose_period">Выбрать период</string>
+    <string name="selected_period">Период</string>
+    <string name="total">Всего</string>
+    <string name="total_cost">Общая стоимость</string>
+    <string name="total_discount">Экономия на скидках</string>
+    <string name="average_cost">Средняя стоимость</string>
+    <string name="no_data_period">Нет данных за выбранный период</string>
+
+    <string name="title_maintenance">ТО и расходники</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="select_subcategory">Выберите подкатегорию</string>
+    <string name="title">Название</string>
+    <string name="item_brand">Бренд</string>
+    <string name="description">Описание</string>
+    <string name="item">Элемент</string>
+    <string name="work">Работы</string>
+    <string name="notify_replacement">Напомнить о замене</string>
+
+    <string name="title_repair">Запчасти и ремонт</string>
+    <string name="repair">Ремонт</string>
+    <string name="replacement">Замена</string>
+
+    <string-array name="fuel_types">
+        <item>АИ-92</item>
+        <item>АИ-92+</item>
+        <item>АИ-95</item>
+        <item>АИ-95+</item>
+        <item>АИ-98</item>
+        <item>АИ-98+</item>
+        <item>АИ-100</item>
+        <item>АИ-100+</item>
+        <item>ДТ</item>
+        <item>ДТ+</item>
+        <item>AdBlue</item>
+        <item>Метан</item>
+        <item>Пропан</item>
+        <item>Электричество</item>
+    </string-array>
+
+    <string-array name="consumables_categories">
+        <item>Жидкости</item>
+        <item>Фильтры</item>
+        <item>Тормоза</item>
+        <item>Зажигание</item>
+        <item>Электрика</item>
+        <item>Шины</item>
+        <item>Дворники</item>
+        <item>Средства для ухода</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="consumables_subcategories_fluids">
+        <item>Моторное масло</item>
+        <item>Трансмиссионная жидкость</item>
+        <item>Охлаждающая жидкость</item>
+        <item>Тормозная жидкость</item>
+        <item>Жидкость ГУР</item>
+        <item>Жидкость сцепления</item>
+        <item>Омывающая жидкость</item>
+    </string-array>
+
+    <string-array name="consumables_subcategories_filters">
+        <item>Воздушный фильтр</item>
+        <item>Салонный фильтр</item>
+        <item>Топливный фильтр</item>
+        <item>Масляный фильтр</item>
+        <item>Сажевый фильтр</item>
+    </string-array>
+
+    <string-array name="consumables_subcategories_brakes">
+        <item>Тормозные колодки</item>
+        <item>Тормозные диски</item>
+        <item>Тормозные барабаны</item>
+        <item>Тормозные шланги</item>
+        <item>Главный тормозной цилиндр</item>
+    </string-array>
+
+    <string-array name="consumables_subcategories_ignition">
+        <item>Свечи зажигания</item>
+        <item>Свечи накаливания</item>
+        <item>Катушки зажигания</item>
+        <item>Крышка трамблёра</item>
+    </string-array>
+
+    <string-array name="consumables_subcategories_electrical">
+        <item>Аккумулятор</item>
+        <item>Предохранители</item>
+        <item>Лампы освещения</item>
+    </string-array>
+
+
+    <string-array name="consumables_subcategories_tires">
+        <item>Шины</item>
+        <item>Вентили шин</item>
+    </string-array>
+
+
+    <string-array name="parts_categories">
+        <item>Двигатель</item>
+        <item>Трансмиссия</item>
+        <item>Подвеска</item>
+        <item>Выхлопная система</item>
+        <item>Топливная система</item>
+        <item>Система охлаждения</item>
+        <item>Электрика</item>
+        <item>Кузовные элементы</item>
+        <item>Салон</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_engine">
+        <item>Головка цилиндра</item>
+        <item>Поршни и кольца</item>
+        <item>Коленчатый вал</item>
+        <item>Распредвал</item>
+        <item>Комплект цепи ГРМ</item>
+        <item>Клапаны и толкатели</item>
+        <item>Масляный насос</item>
+        <item>Прокладка ГБЦ</item>
+        <item>Турбокомпрессор</item>
+        <item>Ремень генератора</item>
+        <item>Масляный радиатор</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_transmission">
+        <item>Коробка передач</item>
+        <item>Комплект сцепления</item>
+        <item>Дифференциал</item>
+        <item>Раздаточная коробка</item>
+        <item>Карданный вал</item>
+        <item>Вилка переключения</item>
+        <item>Гидротрансформатор</item>
+        <item>Сальники КПП</item>
+        <item>Шестерни синхронизаторов</item>
+        <item>Подшипники трансмиссии</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_suspension">
+        <item>Амортизаторы</item>
+        <item>Пружины</item>
+        <item>Рычаги управления</item>
+        <item>Шаровые опоры</item>
+        <item>Стабилизаторные тяги</item>
+        <item>Втулки</item>
+        <item>Сайлентблоки</item>
+        <item>Ступичные подшипники</item>
+        <item>Опоры стоек</item>
+        <item>Рычаги поперечной устойчивости</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_exhaust">
+        <item>Катализатор</item>
+        <item>Глушитель</item>
+        <item>Выпускной коллектор</item>
+        <item>Датчики кислорода</item>
+        <item>Выхлопные трубы</item>
+        <item>Кронштейны глушителя</item>
+        <item>Термоэкран</item>
+        <item>Фланцы выхлопа</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_fuel">
+        <item>Топливный насос</item>
+        <item>Топливные форсунки</item>
+        <item>Топливный бак</item>
+        <item>Регулятор давления топлива</item>
+        <item>Топливная рампа</item>
+        <item>Топливопроводы</item>
+        <item>Датчик уровня топлива</item>
+        <item>Топливный фильтр тонкой очистки</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_cooling">
+        <item>Радиатор</item>
+        <item>Водяной насос</item>
+        <item>Термостат</item>
+        <item>Вентилятор охлаждения</item>
+        <item>Шланги</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_electrical">
+        <item>Генератор</item>
+        <item>Стартер</item>
+        <item>Жгут проводов</item>
+        <item>ЭБУ</item>
+        <item>Датчики</item>
+        <item>Реле и блоки управления</item>
+        <item>Катушка зажигания</item>
+        <item>Провода высокого напряжения</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_body">
+        <item>Двери</item>
+        <item>Крылья</item>
+        <item>Бамперы</item>
+        <item>Фары</item>
+        <item>Зеркала</item>
+    </string-array>
+
+    <string-array name="parts_subcategories_interior">
+        <item>Сиденья</item>
+        <item>Приборная панель</item>
+        <item>Подушки безопасности</item>
+        <item>Руль</item>
+        <item>Обивка</item>
+    </string-array>
+
+    <string name="about_title">О приложении</string>
+    <string name="about_message">Версия 1.0\nАвтор: Тихонюк Максим</string>
+    <string name="auth_required_title">Требуется авторизация</string>
+    <string name="auth_required_message">Для синхронизации войдите в аккаунт</string>
+    <string name="account_title">Аккаунт</string>
+    <string name="account_message">Вы вошли как: %s</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="logged_out">Вы вышли из аккаунта</string>
+
+    <string name="notification_channel_name">Напоминания о ТО</string>
+    <string name="notification_channel_description">Уведомления о замене</string>
+    <string name="notification_title">Требуется замена: %s</string>
+    <string name="notification_condition">Условие: %s</string>
+    <string name="action_snooze">Отложить</string>
+    <string name="action_done">Выполнено</string>
+</resources>
