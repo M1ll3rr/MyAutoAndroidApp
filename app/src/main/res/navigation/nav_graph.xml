@@ -31,8 +31,7 @@
     <fragment
         android:id="@+id/brandSelector"
         android:name="com.example.myauto.car_selection.BrandSelectorFragment"
-        android:label="fragment_brand_selection"
-        tools:layout="@layout/fragment_brand_selector">
+        android:label="fragment_brand_selection">
         <action
             android:id="@+id/action_brand_to_model"
             app:destination="@id/modelSelector" />
@@ -76,8 +75,7 @@
     <fragment
         android:id="@+id/bodyTypeSelector"
         android:name="com.example.myauto.car_selection.BtSelectorFragment"
-        android:label="fragment_body_type"
-        tools:layout="@layout/fragment_bt_selector" >
+        android:label="fragment_body_type">
         <argument
             android:name="brandName"
             app:argType="string" />
@@ -98,8 +96,7 @@
     <fragment
         android:id="@+id/fuel"
         android:name="com.example.myauto.fuel.FuelFragment"
-        android:label="fragment_fuel"
-        tools:layout="@layout/fragment_fuel" >
+        android:label="fragment_fuel">
         <action
             android:id="@+id/action_fuel_to_fuelStat"
             app:destination="@id/fuelStatFragment" />
@@ -112,8 +109,7 @@
     <fragment
         android:id="@+id/maintenanceFragment"
         android:name="com.example.myauto.maintenance.MaintenanceFragment"
-        android:label="fragment_maintenance"
-        tools:layout="@layout/fragment_maintenance" >
+        android:label="fragment_maintenance">
         <action
             android:id="@+id/action_maintenance_to_maintenanceStat"
             app:destination="@id/maintenanceStatFragment" />
@@ -122,8 +118,7 @@
     <fragment
         android:id="@+id/repairFragment"
         android:name="com.example.myauto.repair.RepairFragment"
-        android:label="fragment_repair"
-        tools:layout="@layout/fragment_repair" >
+        android:label="fragment_repair">
         <action
             android:id="@+id/action_repair_to_repairStat"
             app:destination="@id/repairStatFragment" />

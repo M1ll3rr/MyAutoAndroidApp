@@ -5,7 +5,6 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationCompat.PRIORITY_DEFAULT
 import com.example.myauto.R
@@ -15,7 +14,6 @@ import com.example.myauto.notification.NotificationReceiver.Companion.ACTION_SNO
 import com.example.myauto.notification.NotificationReceiver.Companion.EXTRA_ITEM_ID
 import com.example.myauto.room.entity.MaintenanceItemEntity
 import com.example.myauto.utils.FormatterHelper.formatDate
-import java.text.SimpleDateFormat
 
 object NotificationHelper {
     const val CHANNEL_ID = "maintenance_notifications"

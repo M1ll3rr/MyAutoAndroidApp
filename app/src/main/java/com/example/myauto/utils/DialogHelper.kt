@@ -3,7 +3,6 @@ package com.example.myauto.utils
 import android.content.Context
 import com.example.myauto.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.google.android.material.textfield.TextInputEditText
 
 object DialogHelper {
     fun showDeleteDialog(context: Context, onConfirm: () -> Unit) {
